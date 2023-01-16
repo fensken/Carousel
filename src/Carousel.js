@@ -9,13 +9,14 @@ const Carousel = ({imagelist}) => {
         <div className="h-full">
         
         {/* ------------------arroes for navigation------------------- */}
-            <div className="leftarrow inline absolute z-10 left-80 top-96 bg-slate-300 bg-opacity-10 hover:bg-opacity-40 hover:cursor-pointer rounded-full text-align-center text-white text-5xl p-6">
+        <div className="flex justify-between">
+            <div className="leftarrow inline relative z-10 left-3 top-80 bg-slate-300 bg-opacity-10 hover:bg-opacity-40 hover:cursor-pointer rounded-full text-align-center text-white text-5xl p-6">
                 <i class="fa-solid fa-arrow-left"></i>
             </div>
-            <div className="rightarrow inline absolute z-10 top-96 right-80 bg-slate-300 rounded-full bg-opacity-10 hover:bg-opacity-40 hover:cursor-pointer text-align-center text-white text-5xl p-6">
+            <div className="rightarrow inline relative z-10 top-80 right-3 text-end bg-slate-300 rounded-full bg-opacity-10 hover:bg-opacity-40 hover:cursor-pointer text-align-center text-white text-5xl p-6">
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
-
+        </div>
 
         {/* ---------------carousel of places to travel---------------------- */}
             <div style={{backgroundImage: `url(${imagelist[currentIndex].url})`}} className="imagedisplay bg-center bg-no-repeat bg-cover w-full h-full rounded-sm" >
