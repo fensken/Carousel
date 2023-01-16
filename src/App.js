@@ -1,11 +1,12 @@
 import Carousel from "./Carousel";
+import bali from "../src/Images/bali.jpg"
 
 
 function App() {
 
 
   const imagelist = [
-    {name: 'bali', url: 'http://localhost:3000/Images/bali.jpg'},
+    {name: 'bali', url: `${bali}`},
     {name: 'egypt', url: 'http://localhost:3000/Images/egypt.jpg'},
     {name: 'newyork', url: 'http://localhost:3000/Images/newyork.jpg'},
     {name: 'paris', url: 'http://localhost:3000/Images/paris.jpg'},
