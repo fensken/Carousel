@@ -1,19 +1,13 @@
 {
   "files": {
-    "main.css": "/Carousel/static/css/main.b523a598.css",
-    "main.js": "/Carousel/static/js/main.7fa92f58.js",
-    "static/media/bali.jpg": "/Carousel/static/media/bali.ef82b00e5de8e0437510.jpg",
-    "static/media/tokyo.jpg": "/Carousel/static/media/tokyo.cde5d057304a8641e508.jpg",
-    "static/media/paris.jpg": "/Carousel/static/media/paris.47af7f840c4aa6796a6c.jpg",
-    "static/media/venice.jpg": "/Carousel/static/media/venice.a06be6a58950b68abba8.jpg",
-    "static/media/newyork.jpg": "/Carousel/static/media/newyork.90d49e7a6909821f11ab.jpg",
-    "static/media/egypt.jpg": "/Carousel/static/media/egypt.4fb7ec3958dbf0ba0ac6.jpg",
+    "main.css": "/Carousel/static/css/main.b68308cd.css",
+    "main.js": "/Carousel/static/js/main.f25fe8ac.js",
     "index.html": "/Carousel/index.html",
-    "main.b523a598.css.map": "/Carousel/static/css/main.b523a598.css.map",
-    "main.7fa92f58.js.map": "/Carousel/static/js/main.7fa92f58.js.map"
+    "main.b68308cd.css.map": "/Carousel/static/css/main.b68308cd.css.map",
+    "main.f25fe8ac.js.map": "/Carousel/static/js/main.f25fe8ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.b523a598.css",
-    "static/js/main.7fa92f58.js"
+    "static/css/main.b68308cd.css",
+    "static/js/main.f25fe8ac.js"
   ]
 }
