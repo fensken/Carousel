@@ -1,5 +1,10 @@
 import Carousel from "./Carousel";
 import bali from "../src/Images/bali.jpg"
+import egypt from "../src/Images/egypt.jpg"
+import newyork from "../src/Images/newyork.jpg"
+import paris from "../src/Images/paris.jpg"
+import tokyo from "../src/Images/tokyo.jpg"
+import venice from "../src/Images/venice.jpg"
 
 
 function App() {
@@ -7,19 +12,19 @@ function App() {
 
   const imagelist = [
     {name: 'bali', url: `${bali}`},
-    {name: 'egypt', url: 'http://localhost:3000/Images/egypt.jpg'},
-    {name: 'newyork', url: 'http://localhost:3000/Images/newyork.jpg'},
-    {name: 'paris', url: 'http://localhost:3000/Images/paris.jpg'},
-    {name: 'tokyo', url: 'http://localhost:3000/Images/tokyo.jpg'},
-    {name: 'venice', url: 'http://localhost:3000/Images/venice.jpg'}
+    {name: 'egypt', url: `${egypt}`},
+    {name: 'new york', url: `${newyork}`},
+    {name: 'paris', url: `${paris}`},
+    {name: 'tokyo', url: `${tokyo}`},
+    {name: 'venice', url: `${venice}`}
   ]
 
 
   return (
-    <div className="App h-screen bg-indigo-50 m-0">
+    <div className="App min-h-screen bg-indigo-50 my-0 mx-auto">
       <h1 className="heading text-black shadow-md text-6xl text-center py-5 mb-10 font-bold capitlize">Travel Destinations</h1>
 
-      <div className="w-8/12 mx-auto my-2" style={{height: '60%'}}>
+      <div className="w-8/12 mx-auto my-2">
         <Carousel imagelist={imagelist} />
       </div>
       
