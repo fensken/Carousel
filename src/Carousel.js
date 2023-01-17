@@ -4,7 +4,6 @@ import Dots from "./Dots";
 const Carousel = ({imagelist}) => {
 
     const [currentIndex, setCurrentIndex] = useState(0)
-    console.log(imagelist)
     // const [isActive, setISActive] = useState(true)
 
 
@@ -29,7 +28,6 @@ const Carousel = ({imagelist}) => {
 
     return ( 
         <div className="relative">
-        
         {/* ------------------arroes for navigation------------------- */}
             <div className="flex justify-between">
                 <div onClick={handleLeftArrow} className="leftarrow inline absolute z-10 left-3 top-64 bg-slate-300 bg-opacity-10 hover:bg-opacity-40 hover:cursor-pointer rounded-full text-align-center text-white text-5xl p-6">
@@ -43,7 +41,7 @@ const Carousel = ({imagelist}) => {
         {/* ---------------carousel of places to travel---------------------- */}
             <div style={{backgroundImage: `url(${imagelist[currentIndex].url})`, minHeight: "600px"}} className="imagedisplay bg-center bg-no-repeat bg-cover w-full rounded-md"  >
 
-                <h6 className="destinationname capitalize text-right text-white text-6xl p-7 font-bold text-opacity-70 drop-shadow-md"> 
+                <h6 className="destinationname capitalize text-right text-white text-4xl p-7 font-bold text-opacity-70 drop-shadow-md"> 
                     {imagelist[currentIndex].name}
                 </h6>
             </div>
@@ -59,7 +57,7 @@ const Carousel = ({imagelist}) => {
 
             <div className="dots flex justify-center gap-5 pt-2 text-slate-300">
                 {imagelist.map((image,imageIndex) => (
-                    <Dots image={image} imageIndex={imageIndex} handleDot={handleDot} currentIndex={currentIndex}/>
+                    <Dots imageIndex={imageIndex} handleDot={handleDot} currentIndex={currentIndex}/>
                 ))}
             </div>
             

@@ -16,7 +16,7 @@ function App() {
 
 
   return (
-    <div className="App min-h-screen bg-indigo-50 my-0 mx-auto">
+    <div className="App min-h-screen bg-indigo-100 bg-opacity-90 my-0 mx-auto">
       <h1 className="heading text-black shadow-md text-6xl text-center py-5 mb-10 font-bold capitlize">Travel Destinations</h1>
 
       <div className="w-8/12 mx-auto my-2">
