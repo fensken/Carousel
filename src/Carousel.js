@@ -38,8 +38,7 @@ const Carousel = ({imagelist}) => {
             </div>
 
         {/* ---------------carousel of places to travel---------------------- */}
-            <div style={{backgroundImage: `url(${imagelist[currentIndex].url})`, minHeight: "600px"}} className="imagedisplay bg-center bg-no-repeat bg-cover w-full rounded-md"  >
-
+            <div style={{backgroundImage: `url(${imagelist[currentIndex].url})`}} className="imagedisplay min-h-[550px] bg-center bg-no-repeat bg-cover w-full rounded-md"  >
                 <h6 className="destinationname capitalize text-right text-white text-4xl p-7 font-bold text-opacity-70 drop-shadow-md"> 
                     {imagelist[currentIndex].name}
                 </h6>
