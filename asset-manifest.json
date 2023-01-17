@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Carousel/static/css/main.68bf5582.css",
-    "main.js": "/Carousel/static/js/main.5dfcb969.js",
+    "main.css": "/Carousel/static/css/main.5f34847a.css",
+    "main.js": "/Carousel/static/js/main.c4374824.js",
     "static/media/bali.jpg": "/Carousel/static/media/bali.ef82b00e5de8e0437510.jpg",
     "index.html": "/Carousel/index.html",
-    "main.68bf5582.css.map": "/Carousel/static/css/main.68bf5582.css.map",
-    "main.5dfcb969.js.map": "/Carousel/static/js/main.5dfcb969.js.map"
+    "main.5f34847a.css.map": "/Carousel/static/css/main.5f34847a.css.map",
+    "main.c4374824.js.map": "/Carousel/static/js/main.c4374824.js.map"
   },
   "entrypoints": [
-    "static/css/main.68bf5582.css",
-    "static/js/main.5dfcb969.js"
+    "static/css/main.5f34847a.css",
+    "static/js/main.c4374824.js"
   ]
 }
