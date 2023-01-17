@@ -1,9 +1,11 @@
 import { useState } from "react";
+import Dots from "./Dots";
 
 const Carousel = ({imagelist}) => {
 
     const [currentIndex, setCurrentIndex] = useState(0)
     console.log(imagelist)
+    // const [isActive, setISActive] = useState(true)
 
 
     //--------------- Functions for left and right arrow--------------------------
@@ -23,7 +25,6 @@ const Carousel = ({imagelist}) => {
     const handleDot = (dotindex) => {
         setCurrentIndex(dotindex)
     }
-
 
 
     return ( 
@@ -48,11 +49,17 @@ const Carousel = ({imagelist}) => {
             </div>
 
         {/* ----------dots to navigate-------------- */}
+            {/* <div className="dots flex justify-center gap-5 pt-2 text-slate-300">
+                {imagelist.map((image,imageIndex) => (
+                    <div key={imageIndex} className=" ">
+                        <i class={`${isActive ? "active" : "passive"} fa-sharp fa-solid fa-circle border-slate-500 border-2 rounded-full hover:cursor-pointer hover:text-teal-400`} onClick={() => handleDot(imageIndex)}></i>
+                    </div>
+                ))}
+            </div> */}
+
             <div className="dots flex justify-center gap-5 pt-2 text-slate-300">
                 {imagelist.map((image,imageIndex) => (
-                    <div key={imageIndex}>
-                        <i class="fa-sharp fa-solid fa-circle border-slate-500 border-2 rounded-full hover:cursor-pointer hover:text-teal-400" onClick={() => handleDot(imageIndex)}></i>
-                    </div>
+                    <Dots image={image} imageIndex={imageIndex} handleDot={handleDot} currentIndex={currentIndex}/>
                 ))}
             </div>
             
