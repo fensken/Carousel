@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Carousel/static/css/main.13762603.css",
-    "main.js": "/Carousel/static/js/main.5a331f84.js",
+    "main.css": "/Carousel/static/css/main.56e42f63.css",
+    "main.js": "/Carousel/static/js/main.6c551650.js",
     "index.html": "/Carousel/index.html",
-    "main.13762603.css.map": "/Carousel/static/css/main.13762603.css.map",
-    "main.5a331f84.js.map": "/Carousel/static/js/main.5a331f84.js.map"
+    "main.56e42f63.css.map": "/Carousel/static/css/main.56e42f63.css.map",
+    "main.6c551650.js.map": "/Carousel/static/js/main.6c551650.js.map"
   },
   "entrypoints": [
-    "static/css/main.13762603.css",
-    "static/js/main.5a331f84.js"
+    "static/css/main.56e42f63.css",
+    "static/js/main.6c551650.js"
   ]
 }
