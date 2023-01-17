@@ -20,11 +20,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.active {
-  color: #2dd4bf;
-}
-
-.passive {
-  color: #cbd5e1;
-}

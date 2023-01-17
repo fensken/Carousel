@@ -1,22 +1,15 @@
-import { useState } from "react";
 
-const Dots = ({imageIndex, handleDot, currentIndex}) => {
 
-    const [isActive, setISActive] = useState(false)
-    console.log(currentIndex)
-    console.log(imageIndex)
-
-    // if (currentIndex === 3) {
-    //     setISActive(true)
-    // } else {
-    //     setISActive(false)
-    // };
-
+const Dots = ({ imageIndex, handleDot, active = false }) => {
     return (
-        <div key={imageIndex} >
-            <i class={`fa-sharp fa-solid fa-circle border-slate-500 border-2 rounded-full hover:cursor-pointer hover:text-teal-400 ${isActive ? "active" : "passive"} `} onClick={() => handleDot(imageIndex)}></i>
-        </div>
+      <i
+        key={imageIndex}
+        className={`fa-sharp fa-solid fa-circle hover:cursor-pointer border-slate-400 border-1 rounded-full ${
+          active ? "text-teal-400 border-slate-500 border-2 rounded-full " : ""
+        } `}
+        onClick={() => handleDot(imageIndex)}
+      ></i>
     );
-}
- 
+  };
+  
 export default Dots;
